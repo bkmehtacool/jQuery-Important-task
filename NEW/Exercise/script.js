@@ -7,6 +7,6 @@ $(document).ready(function () {
         if (scrollHeight==currHeight){
             $('#inpt').removeAttr('disabled');
         }
-        $('#num').text(height +'  '+currHeight+'  '+scrollHeight);
+        // $('#num').text(height +'  '+currHeight+'  '+scrollHeight);
     });
 });
